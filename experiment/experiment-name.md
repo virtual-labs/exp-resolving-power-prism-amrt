@@ -1,1 +1,1 @@
-## Experiment name
+## Resolving power of a prism
