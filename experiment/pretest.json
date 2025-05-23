@@ -2,37 +2,27 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the use of collimator?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It is used for focusing source ligh",
+        "b": "Use to get the parallel rays",
+        "c": "Diverge the source light",
+        "d": "Converge the source light"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Snell's law can be written as:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Sin(i)/Sin(r)=n1/n2",
+        "b": "Sin(i)/Sin(r)=n2/n1",
+        "c": "Sin(i)/Sin(r)=1/n2*n1",
+        "d": "Sin(i)/Sin(r)=n2*n1"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
