@@ -1,0 +1,29 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the use of collimator?",
+      "answers": {
+        "a": "It is used for focusing source ligh",
+        "b": "Use to get the parallel rays",
+        "c": "Diverge the source light",
+        "d": "Converge the source light"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Snell's law can be written as:",
+      "answers": {
+        "a": "Sin(i)/Sin(r)=n1/n2",
+        "b": "Sin(i)/Sin(r)=n2/n1",
+        "c": "Sin(i)/Sin(r)=1/n2*n1",
+        "d": "Sin(i)/Sin(r)=n2*n1"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
