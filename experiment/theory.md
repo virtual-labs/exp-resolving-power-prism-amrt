@@ -7,7 +7,7 @@ $$\frac{\lambda}{\Delta \lambda}$$
 ### Prism Spectroscopy:
 
 Prism Spectroscopy:
-Newton demonstrated in the 1600's that white light passing though a prism could be separated into its different colors. While at that time he believed in the corpuscular theory of light, we know now that these individual colors represent different wavelengths or frequencies. From our introduction to refraction it isto be expected that light of different colors will bed through different angles. 
+Newton demonstrated in the 1600's that white light passing through a prism could be separated into its different colors. While at that time he believed in the corpuscular theory of light, we know now that these individual colors represent different wavelengths or frequencies. From our introduction to refraction it isto be expected that light of different colors will bed through different angles. 
 
 Perhaps the simplest form of astronomical spectroscopy is the objective prism. Unsurprisingly, this is a very thin prism that sits in front of a telescope objective - often in front of the corrector plate of a Schmidt telescope (to get "wide field" results).
 
