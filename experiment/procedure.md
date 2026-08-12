@@ -50,10 +50,17 @@ L.C    = N/v = .......................minute
 6. Note the corresponding telescope/vernier readings for the selected spectral lines. Use the zoomed **Vernier 1** and **Vernier 2** views for reading the scales accurately.
 7. Remove the prism by clicking **REMOVE PRISM** and note the direct-ray reading.
 8. Determine the angle of minimum deviation for each selected spectral line from the difference between the corresponding deviated-ray and direct-ray readings.
-9. Calculate the refractive index for each selected spectral line using the equation given in the **Theory** section.
-10. Select two spectral lines, such as blue and yellow, and calculate the average refractive index using their refractive indices.
-11. Calculate the resolving power for the selected pair of spectral lines using the equation given in the **Theory** section.
-12. Record the calculated values in the result section.
+9. Calculate the refractive index for each selected spectral line using the angle of the prism and the corresponding angle of minimum deviation. Use the following equation.
+$$n = \frac{\sin\left(\frac{A+D}{2}\right)}
+         {\sin\left(\frac{A}{2}\right)}$$
+
+- $n$ = refractive index of the prism material
+- $A$ = angle of the prism. To determine the value of $A$, refer to the [Angle of Prism Using Spectrometer](https://ov-amrt.vlabs.ac.in/exp/angle-prism-using-spectrometer/) experiment.
+- $D$ = angle of minimum deviation for the selected spectral line​
+    
+11. Select two spectral lines, such as blue and yellow, and calculate the average refractive index using their refractive indices.
+12. Calculate the resolving power for the selected pair of spectral lines using the equation given in the **Theory** section.
+13. Record the calculated values in the result section.
 
 
  
