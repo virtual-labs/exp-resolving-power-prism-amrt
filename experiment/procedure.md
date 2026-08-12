@@ -1,42 +1,71 @@
 
 
-### Appratus :
+# Appratus :
  
 Spectrometer, prism, prism clamp, mercury vapour lamp, lens.
 
 
-### Controls
-#### Switches
-- **Switch On/Off Light** : Used to switch on/off the light.
-- **Place Prism/Remove Prism** : This switch used to place the prism on the prism table or remove prism from the prism table.
 
-#### Slider
-- **Slit focus** : This slider used to focus the slit while looking through telescope.
-- **Slit width** : Using this slider, width of the slit can be adjusted.
-- **Telescope**: Using this slider one can move the telescope from its position.
-- **Vernier Table**: Vernier table can be rotate using this slider.
-#### Fine Angle adjustment
-- **Telescope**: This is used to fine adjust the telescope.
-- **Vernier Table**: Using this slider , we can rotate fine angle.
-#### Measurements
-- Here we get the zoomed view of vernier I and II by placing mouse pointer over it.
+# Procedure
 
-
-## Procedure
-
+## Procedure for simulator
 ### Preliminary adjustments:
-#### Performing simulator
+1. Open the simulation and focus the telescope on a distant object using the **Focusing of telescope** slider.
+2. When the telescope is properly focused, the **START** button becomes active. Click **START** to begin the experiment.
+3. Click **SWITCH ON LIGHT** to illuminate the spectrometer.
+4. Adjust the **Slit focus** slider until the slit is clearly focused when viewed through the telescope.
+5. Adjust the **Slit width** slider to obtain a clear and sufficiently narrow slit.
+6. Use the **Telescope** slider and the **Telescope** fine-angle adjustment to bring the slit image into coincidence with the cross-wire.
 
-<ul>
-	<li>Focus Telescope on distant object.</li>
-	<li>When focus is correct, start button is activated. Then click Start button.</li>
-	<li>Switch on the light by clicking Switch On Light button.</li>
-	<li>Focus the slit using Slit focus slider.</li>
-	<li>Adjust the slit width using Slit width slider.</li>
-	<li>Coincide the slit with cross wire in the telescope.&nbsp;</li>
-</ul>
 
-####  Performing Real Lab:
+### Least Count of Spectrometer
+
+One main scale division (N)  =................minute
+
+Number of divisions on vernier (v) = ................
+
+L.C    = N/v = .......................minute
+
+
+### Determination of the Angle of Minimum Deviation
+
+1. Click **PLACE PRISM** to place the prism on the prism table.
+2. Adjust the **Vernier table** using the **Vernier table** slider so that light from the collimator falls on one face of the prism and emerges through the other face.
+3. Use the **Telescope** slider to observe the refracted image of the slit.
+4. Slowly rotate the prism table using the **Vernier table** slider and observe the movement of the refracted image.
+5. Continue rotating the prism table in the appropriate direction until the image reaches the position where it remains momentarily stationary. This corresponds to the position of minimum deviation.
+6. Use the **Telescope** fine-angle adjustment to accurately bring the slit image into coincidence with the cross-wire.
+7. Note the telescope/vernier readings shown in the simulation. The zoomed view of **Vernier 1** and **Vernier 2** can be observed by placing the mouse pointer over the corresponding vernier scales.
+8. Remove the prism by clicking **REMOVE PRISM**.
+9. Align the telescope parallel to the collimator using the **Telescope** slider and note the direct-ray reading.
+10. Calculate the angle of minimum deviation, \(D\), from the difference between the direct-ray reading and the deviated-ray reading.
+
+### Determination of the Resolving Power of the Prism
+
+1. Click **PLACE PRISM** to place the prism on the prism table.
+2. Rotate the prism table using the **Vernier table** slider so that the light from the collimator passes through the prism and emerges from the other face.
+3. Observe the spectrum produced by the prism through the telescope.
+4. Use the **Telescope** slider to bring the telescope successively to the required spectral lines.
+5. For each selected spectral line, use the **Telescope** fine-angle adjustment to obtain accurate coincidence of the line with the cross-wire.
+6. Note the corresponding telescope/vernier readings for the selected spectral lines. Use the zoomed **Vernier 1** and **Vernier 2** views for reading the scales accurately.
+7. Remove the prism by clicking **REMOVE PRISM** and note the direct-ray reading.
+8. Determine the angle of minimum deviation for each selected spectral line from the difference between the corresponding deviated-ray and direct-ray readings.
+9. Calculate the refractive index for each selected spectral line using the angle of the prism and the corresponding angle of minimum deviation. Use the following equation.
+$$n = \frac{\sin\left(\frac{A+D}{2}\right)}
+         {\sin\left(\frac{A}{2}\right)}$$
+
+- $n$ = refractive index of the prism material
+- $A$ = angle of the prism. To determine the value of $A$, refer to the [Angle of Prism Using Spectrometer](https://ov-amrt.vlabs.ac.in/exp/angle-prism-using-spectrometer/) experiment.
+- $D$ = angle of minimum deviation for the selected spectral line​
+    
+11. Select two spectral lines, such as blue and yellow, and calculate the average refractive index using their refractive indices.
+12. Calculate the resolving power for the selected pair of spectral lines using the equation given in the **Theory** section.
+13. Record the calculated values in the result section.
+
+
+ 
+
+##  Procedure for Real Lab:
 
 <ol>
 	<li>Turn the telescope towards the white wall or screen and looking through eye-piece, adjust its position till the cross wires are clearly seen.</li>
@@ -50,31 +79,6 @@ Spectrometer, prism, prism clamp, mercury vapour lamp, lens.
 	<li>Clamp the prism holder.</li>
 	<li>Clamp the prism in which the sharp edge is facing towards the collimator, and base of the prism is at the clamp.</li>
 </ol>
-
-### Least Count of Spectrometer
-
-One main scale division (N)  =................minute
-
-Number of divisions on vernier (v) = ................
-
-L.C    = N/v = .......................minute
-
-### To determine the Angle of minimum deviation:
- 
-
-### Direct method
- 
-####  Performing simulator
-
-<ul>
-	<li>Rotate prism table so as to get the refracted light through the prism.</li>
-	<li>Make the slit coincide with telescope cross wire.</li>
-	<li>Slowly rotate the vernier table by using vernier fine adjusting slider.</li>
-	<li>Note the position where the slit is stationary for some moment.</li>
-	<li>Using telescope fine adjusting slider, make coincide the slit with cross wire.</li>
-</ul>
-
-####   Performing Real Lab
 <ol>
 	<li>Rotate the prism table so that the light from the collimator falling on one of the face of the prism and emerges through the other face.</li>
 	<li>The telescope is turned to view the refracted image of the slit on the other face.</li>
